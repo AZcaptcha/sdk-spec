@@ -1,0 +1,24 @@
+{
+  "name": "submit-recaptcha-v2",
+  "spec": "spec-v1.0.0",
+  "recorded": false,
+  "request": {
+    "method": "POST",
+    "path": "/in.php",
+    "form": {
+      "method": "userrecaptcha",
+      "key": "REDACTED",
+      "json": "1",
+      "googlekey": "6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-",
+      "pageurl": "https://example.com/login",
+      "soft_id": "AZCAPTCHA_SOFT_ID"
+    }
+  },
+  "response": {
+    "status": 200,
+    "json": {
+      "status": 1,
+      "request": "1234567891"
+    }
+  }
+}

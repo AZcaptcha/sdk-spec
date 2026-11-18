@@ -1,0 +1,23 @@
+{
+  "name": "submit-image",
+  "spec": "spec-v1.0.0",
+  "recorded": false,
+  "note": "Shape from CaptchaController in.php(json=1). Re-record with a live key before tagging 1.0.0.",
+  "request": {
+    "method": "POST",
+    "path": "/in.php",
+    "form": {
+      "method": "base64",
+      "key": "REDACTED",
+      "json": "1",
+      "body": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="
+    }
+  },
+  "response": {
+    "status": 200,
+    "json": {
+      "status": 1,
+      "request": "1234567890"
+    }
+  }
+}

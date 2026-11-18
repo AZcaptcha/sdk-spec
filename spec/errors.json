@@ -1,0 +1,37 @@
+{
+  "spec": "spec-v1.0.0",
+  "envelope_codes": {
+    "CAPCHA_NOT_READY": { "category": "processing", "retryable": true }
+  },
+  "errors": {
+    "ERROR_KEY_DOES_NOT_EXIST": { "category": "auth", "retryable": false },
+    "ERROR_ACCOUNT_SUSPENDED": { "category": "auth", "retryable": false },
+    "ERROR_ZERO_BALANCE": { "category": "balance", "retryable": false },
+    "ERROR_BAD_PARAMETERS": { "category": "request", "retryable": false },
+    "ERROR_WRONG_ID_FORMAT": { "category": "request", "retryable": false },
+    "ERROR_NO_SUCH_CAPCHA_ID": { "category": "request", "retryable": false },
+    "ERROR_TASK_NOT_FOUND": { "category": "request", "retryable": false },
+    "ERROR_TASK_NOT_SUPPORTED": { "category": "request", "retryable": false },
+    "ERROR_WRONG_GOOGLEKEY": { "category": "request", "retryable": false },
+    "ERROR_RECAPTCHA_INVALID_SITEKEY": { "category": "request", "retryable": false },
+    "ERROR_WRONG_PAGEURL": { "category": "request", "retryable": false },
+    "ERROR_IMAGE_NOT_FOUND": { "category": "request", "retryable": false },
+    "ERROR_IMAGE_TYPE_NOT_SUPPORTED": { "category": "request", "retryable": false },
+    "ERROR_ZERO_CAPTCHA_FILESIZE": { "category": "request", "retryable": false },
+    "ERROR_TOO_BIG_CAPTCHA_FILESIZE": { "category": "request", "retryable": false },
+    "ERROR_DAILY_LIMIT_EXCEEDED": { "category": "limit", "retryable": false },
+    "ERROR_TOO_MANY_THREADS": { "category": "limit", "retryable": true },
+    "ERROR_NO_SLOT_AVAILABLE": { "category": "capacity", "retryable": true },
+    "ERROR_MAINTENANCE": { "category": "service", "retryable": false },
+    "ERROR_TIMEOUT": { "category": "result", "retryable": false },
+    "ERROR_TTL": { "category": "result", "retryable": false },
+    "ERROR_TOKEN_EXPIRED": { "category": "result", "retryable": false },
+    "ERROR_CAPTCHA_UNSOLVABLE": { "category": "result", "retryable": false },
+    "ERROR_PROXY_REQUIRED": { "category": "proxy", "retryable": false },
+    "ERROR_PROXY_NOT_AUTHORIZED": { "category": "proxy", "retryable": false },
+    "ERROR_PROXY_BANNED": { "category": "proxy", "retryable": false },
+    "ERROR_PINGBACK_NOT_VERIFIED": { "category": "pingback", "retryable": false },
+    "ERROR_MODULE_ACCESS_DENIED": { "category": "module", "retryable": false },
+    "ERROR_MODULE_NOT_TRAINED": { "category": "module", "retryable": false }
+  }
+}

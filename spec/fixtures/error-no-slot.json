@@ -1,0 +1,23 @@
+{
+  "name": "error-no-slot",
+  "spec": "spec-v1.0.0",
+  "recorded": false,
+  "request": {
+    "method": "POST",
+    "path": "/in.php",
+    "form": {
+      "method": "turnstile",
+      "key": "REDACTED",
+      "json": "1",
+      "sitekey": "0x4AAAAAAAB...",
+      "pageurl": "https://example.com/"
+    }
+  },
+  "response": {
+    "status": 200,
+    "json": {
+      "status": 0,
+      "request": "ERROR_NO_SLOT_AVAILABLE"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "poll-ready-recaptcha",
+  "spec": "spec-v1.0.0",
+  "recorded": false,
+  "request": {
+    "method": "GET",
+    "path": "/res.php",
+    "query": {
+      "key": "REDACTED",
+      "action": "get",
+      "id": "1234567891",
+      "json": "1"
+    }
+  },
+  "response": {
+    "status": 200,
+    "json": {
+      "status": 1,
+      "request": "03AGdBq26..."
+    }
+  }
+}

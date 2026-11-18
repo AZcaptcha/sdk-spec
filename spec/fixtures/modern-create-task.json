@@ -1,0 +1,25 @@
+{
+  "name": "modern-create-task",
+  "spec": "spec-v1.0.0",
+  "recorded": false,
+  "request": {
+    "method": "POST",
+    "path": "/createTask",
+    "json": {
+      "clientKey": "REDACTED",
+      "task": {
+        "type": "RecaptchaV2TaskProxyless",
+        "websiteURL": "https://example.com/login",
+        "websiteKey": "6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-"
+      },
+      "softId": 0
+    }
+  },
+  "response": {
+    "status": 200,
+    "json": {
+      "errorId": 0,
+      "taskId": 1234567892
+    }
+  }
+}

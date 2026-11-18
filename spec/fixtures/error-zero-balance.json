@@ -1,0 +1,23 @@
+{
+  "name": "error-zero-balance",
+  "spec": "spec-v1.0.0",
+  "recorded": false,
+  "request": {
+    "method": "POST",
+    "path": "/in.php",
+    "form": {
+      "method": "userrecaptcha",
+      "key": "REDACTED",
+      "json": "1",
+      "googlekey": "6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-",
+      "pageurl": "https://example.com/login"
+    }
+  },
+  "response": {
+    "status": 200,
+    "json": {
+      "status": 0,
+      "request": "ERROR_ZERO_BALANCE"
+    }
+  }
+}

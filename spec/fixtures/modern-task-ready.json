@@ -1,0 +1,23 @@
+{
+  "name": "modern-task-ready",
+  "spec": "spec-v1.0.0",
+  "recorded": false,
+  "request": {
+    "method": "POST",
+    "path": "/getTaskResult",
+    "json": {
+      "clientKey": "REDACTED",
+      "taskId": 1234567892
+    }
+  },
+  "response": {
+    "status": 200,
+    "json": {
+      "errorId": 0,
+      "status": "ready",
+      "solution": {
+        "gRecaptchaResponse": "03AGdBq26..."
+      }
+    }
+  }
+}
